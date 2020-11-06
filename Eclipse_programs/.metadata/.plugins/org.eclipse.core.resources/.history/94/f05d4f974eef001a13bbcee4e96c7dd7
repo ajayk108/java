@@ -1,0 +1,34 @@
+
+public class greaterin3no {
+
+	public static void main(String[] args) {
+		
+		int x=5;
+		int y=20;
+		int z=2;
+		if(x>y)
+		{
+			if(x>z)
+			{
+				System.out.println("x is greater");
+			}
+			else
+			{
+				System.out.println("z is greater");
+			}
+		}
+		else
+		{
+			if(y>z)
+			{
+				System.out.println("y is greater");
+			}
+			else
+			{
+				System.out.println("z is greater");
+			}
+			
+		}
+	}
+
+}

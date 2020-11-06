@@ -1,0 +1,82 @@
+import java.util.*;
+
+class InvalidUserException extends Exception
+{
+	InvalidUserException(String msg)
+	{
+		super(msg);
+	}
+}
+class InvalidPasswdException extends Exception
+{
+	InvalidPasswdException(String msg)
+	{
+		super(msg);
+	}
+}
+class security
+{
+
+	String uname;
+	String passwd;
+	
+	void getData()
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter UserName:");
+		uname = sc.nextLine();
+		System.out.println("Enter PassWord:");
+		passwd = sc.nextLine();
+	}
+	
+	void Check()throws InvalidUserException, InvalidPasswdException
+	{
+		String s = "user";
+		String ss = "admin";
+		if((s == uname) && (ss == passwd))
+		{
+			System.out.println("welcome.........!!!");	
+		}	
+		else if( (uname != s) && (passwd != ss) )
+		{
+			System.out.println("Invalid user and password....!!!");
+		}
+		else if(uname != s)
+		{
+			throw new InvalidUserException("Invalid User Name");
+		}
+		else
+		{
+			throw new InvalidPasswdException("Invalid Password");
+		}
+	}
+}
+public class customException {
+
+
+
+	public static void main(String[] args)
+	{
+		
+		security obj = new security();
+			
+		try
+		{
+			obj.getData();
+			obj.Check();
+		}
+		catch(InvalidUserException U)
+		{
+			System.out.println(U);
+		}
+		catch(InvalidPasswdException P)
+		{
+			System.out.println(P);
+		}
+		
+		System.out.println("continue......");
+				
+	}
+
+}

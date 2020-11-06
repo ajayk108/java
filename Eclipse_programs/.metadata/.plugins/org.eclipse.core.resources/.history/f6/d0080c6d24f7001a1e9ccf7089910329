@@ -1,0 +1,12 @@
+/*
+ *  2-D jagged array .................
+ */
+public class array6 {
+	
+	public static void main(String[] args)
+	{
+		int arr[][] = new int[2][]; //Delcaring 2D array with 2 rows..
+				
+	}
+
+}

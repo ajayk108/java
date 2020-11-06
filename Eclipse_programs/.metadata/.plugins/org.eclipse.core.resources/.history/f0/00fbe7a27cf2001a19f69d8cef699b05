@@ -1,0 +1,21 @@
+
+class Student
+{
+		int id;//instance variable
+		String name;//instance variable
+}
+public class InstancesOfClass 
+{
+	public static void main(String[] args)
+	{
+		
+		Student obj1 = new Student();
+		
+		obj1.id = 101;
+		obj1.name = "Ajay";
+		
+		System.out.println(obj1.id);
+		System.out.println(obj1.name);
+	}
+
+}

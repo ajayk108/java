@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="staticClassExample.Inner"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="mypackage1.myclass1"/>
+    <fullyQualifiedTypeName name="subpackage.mysubpackageclass"/>
+    <fullyQualifiedTypeName name="mypackage1.myclass2"/>
+    <fullyQualifiedTypeName name="mypackage1.subpackage.subpackageclass"/>
+    <fullyQualifiedTypeName name="oop_programs.accessProtected_2.myclass2"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

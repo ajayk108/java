@@ -1,0 +1,46 @@
+class animalsss
+{
+	void showData()
+	{
+		System.out.println("animal class");
+	}
+}
+class dogsss extends animalsss
+{
+	void showData()
+	{
+		System.out.println("dogs class");
+	}
+	
+}
+public class instanceOf {
+
+	public static void main(String[] args) {
+		
+		dogsss d1 = new dogsss();
+		
+		if(d1 instanceof dogsss)
+		{
+			System.out.println("Yes d1 is the instance of dogs");
+		}
+		else
+		{
+			System.out.println("No d1 is not istance of dogs");
+		}
+		if(d1 instanceof animalsss)
+		{
+			System.out.println("Yes d1 is the instance of Animals");
+		}
+		else
+		{
+			System.out.println("No d1 is not istance of Animals");
+		}
+		
+		boolean b =  d1 instanceof animalsss;
+		System.out.println("b value is: "+b);
+		
+		boolean c =  d1 instanceof dogsss;
+		System.out.println("b value is: "+c);
+	}
+
+}
